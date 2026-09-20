@@ -1,0 +1,4 @@
+interface:
+  display_name: "人生发展"
+  short_description: "结合个人处境与可靠证据，理清人生选择的成本、收益和风险，给出可执行的下一步"
+  default_prompt: "请使用 $life-development 人生发展技能，结合我的具体处境帮我理清困惑，比较可行选择，并给出眼下最值得做的下一步。"

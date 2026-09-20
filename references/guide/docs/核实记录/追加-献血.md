@@ -1,0 +1,34 @@
+# 追加：献血一条 · 核实记录（2026-09-18）
+
+任务来源：用户问「到底要不要献血，我看网上有人说献血对身体好都是骗人的，有好多人自己献血了脸色变差，本来不怕冷的怕冷」。
+
+原有覆盖：全书搜「献血」「血站」「用血」，只有第 24 节封存病历那条里提到「疑似输血引起不良后果需要封存血液的，医疗机构应当通知血站派员到场」。献血本身：零覆盖。
+
+落点：第 6 节第 17 条。放反面清单是因为要否掉的是「献血对身体好」这个说法（本节收的正是「看起来便宜又有效但收益接近零」的东西），而不是献血这件事；「要不要献、怎么献」写在备注里。口径记死亡率（健康终点），收益量级「小」——所有终点都是替代终点（铁蛋白、血红蛋白、症状自述、体温与耗氧），按阈值「只有替代终点为小」机械套。成本：时间中（一次一小时）、毅力些，钱 0，落性价比一般档。
+
+## 文献（五篇，数字取自 Europe PMC core 记录原文）
+
+| DOI | 复核 | 关键数字原文 |
+|---|---|---|
+| <https://doi.org/10.1093/oxfordjournals.aje.a009669> | 是（Salonen JT et al., Am J Epidemiol 1998;148(5):445-451，PMID 9737556） | 「A cohort of 2,862 men aged 42-60 years were followed for an average of almost 9 years. One man (0.7%) out of 153 men who had donated blood in 24 months preceding the baseline examination experienced an acute myocardial infarction during 1984 to 1995, whereas 316 men (12.5%) of 2,529 non-blood donors had an acute myocardial infarction (p < 0.0001)」「blood donors had a 88% reduced risk (relative hazard = 0.12, 95% confidence interval 0.02-0.86, p = 0.035)」 |
+| <https://doi.org/10.1111/trf.13205> | 是（Ullum H et al., Transfusion 2015;55(10):2479-2485，PMID 26098293） | 「1,182,495 donors of whom 15,401 died during 9,526,627 person-years」「Analyses adjusted only for demographic characteristics showed a 18.6% reduction in mortality per additional annual donation (95% CI, 16.8%-20.4%). After additional adjustment for the internal healthy donor effect, each additional annual donation was associated with a 7.5% decreased mortality risk (95% CI, 5.7%-9.4%)」「cannot be interpreted as conclusive evidence of a beneficial health effect」 |
+| <https://doi.org/10.1001/jama.297.6.603> | 是（Zacharski LR et al., FeAST 试验，JAMA 2007;297(6):603-610，PMID 17299195） | 1277 名症状性下肢动脉疾病患者随机分组，放血组每 6 个月放血一次（「avoiding iron deficiency」）：「All-cause deaths occurred in 148 patients (23%) in the control group and in 125 (20%) in the iron-reduction group (HR, 0.85; 95% CI, 0.67-1.08; P = .17)」「Death plus nonfatal myocardial infarction and stroke occurred in 205 patients (32%) ... and 180 (28%) ... (HR, 0.88; 95% CI, 0.72-1.07; P = .20)」 |
+| <https://doi.org/10.1016/S0140-6736(17)31928-1> | 是（Di Angelantonio E et al., INTERVAL，Lancet 2017;390(10110):2360-2371，PMID 28941948） | 45,263 名全血献血者随机分三种间隔：「the mean amount of blood collected per donor over 2 years increased by 1·69 units (95% CI 1·59-1·80 ...) in the 8-week group」；「No significant differences were observed in quality of life, physical activity, or cognitive function across randomised groups. However, more frequent donation resulted in more donation-related symptoms (eg, tiredness, breathlessness, feeling faint, dizziness, and restless legs ...), lower mean haemoglobin and ferritin concentrations, and more deferrals for low haemoglobin (p<0·0001 for each)」 |
+| <https://doi.org/10.1093/ajcn/52.5.813> | 是（Beard JL et al., Am J Clin Nutr 1990;52(5):813-819，PMID 2239756） | 10 名缺铁性贫血女性、8 名铁储备耗竭未贫血者、12 名对照，28 ℃ 水浴：「The anemic women had lower rectal temperatures than did control women (36.0 +/- 0.2 vs 36.2 +/- 0.1 degree C, respectively, P = 0.001) and a lower rate of oxygen consumption (5.28 +/- 0.26 vs 5.99 +/- 0.29 mL.min-1.kg body wt-1, P = 0.04) at 100 min of cold exposure. Plasma thyroxine and triiodothyronine concentrations were significantly (P less than 0.002) lower」 |
+
+## 中文官方文件（逐字核对）
+
+| URL | 复核 | 原文引句 |
+|---|---|---|
+| <https://flk.npc.gov.cn/detail?id=2c909fdd678bf17901678bf5e71801f9> | 是（flk 后端 API 下 docx 逐字核对，sxx=3 现行有效，1997-12-29 通过、1998-10-01 施行；检索结果里 2026-03-31 公布那条是某省的实施办法，不是献血法本身，别看岔） | 第二条：「国家实行无偿献血制度。国家提倡十八周岁至五十五周岁的健康公民自愿献血。」第九条：「血站对献血者必须免费进行必要的健康检查」「血站对献血者每次采集血液量一般为二百毫升，最多不得超过四百毫升，两次采集间隔期不少于六个月。严格禁止血站违反前款规定对献血者超量、频繁采集血液。」第十四条：「公民临床用血时只交付用于血液的采集、储存、分离、检验等费用」「无偿献血者临床需要用血时，免交前款规定的费用；无偿献血者的配偶和直系亲属临床需要用血时，可以按照省、自治区、直辖市人民政府的规定免交或者减交前款规定的费用。」 |
+| <https://www.gov.cn/zhengce/zhengceku/202401/content_6924875.htm> | 是（国务院政策文件库全文，逐字抓取） | 《关于进一步做好无偿献血者激励奖励工作的通知》：「鼓励各地推进『三免』政策……荣获无偿献血奉献奖、无偿捐献造血干细胞奖的献血者可按照当地政策享受免费乘坐公共交通工具、免费游览政府投资主办的公园和免交公立医院普通门诊诊察费」；「目前，28 个省份已实现无偿献血者及其亲属在省内医院用血费用直接减免」；「非急诊患者同等医疗状况下无偿献血者及其亲属优先用血」 |
+
+## 定级与取舍
+
+- 定 A：主证据是两项随机对照试验（FeAST 1277 人、INTERVAL 45,263 人）加百万级队列，数字均可逐字核对。
+- **没标「争议」**：Kuopio 那项和后面的证据不构成对立的两派，它是这个说法的源头且本身是观察性研究，Ullum 用同一批人群量化了健康献血者效应（18.6% → 7.5%），FeAST 直接把「放血减铁护心」做成随机试验并得到阴性结果。正文把这条链条按顺序写出来，比打一个「争议」标签更清楚。
+- **怕冷那一段单独说明强度**：人体证据只有 Beard 1990 的 10 人小样本（若单列应为 B），正文备注写明「放在这里是给机制，不是给发生率」，不拿它推断献血者里有多少人会怕冷。
+- **没写的**：血管迷走反应（晕针、晕倒）的发生率——本轮没找到可逐字核对的中国大样本数据，宁可不写；也没写任何「献血能减肥/降血压」之类的说法，原始文献里没有。
+- 受益人：血给的是陌生人（第④档），按全书规矩要把能回到自己身上的那份写清，所以备注里列了献血法第十四条的用血费用减免、2024 年通知里的 28 省直接减免与「三免」。
+
+条目数 517→518，A 级 338→339，链接 1032→1039，待用户说「改完了」后再一次性同步 README、index.html、CLAUDE.md、tools/og.html 与 og.png。
