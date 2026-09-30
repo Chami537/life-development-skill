@@ -12,6 +12,7 @@
 - **钱与生活保障**：消费、储蓄、现金流、保险、租房、救助和待遇的查询路径。
 - **关系与家庭**：恋爱、催婚、婚姻分工、照料家人、育儿与个人边界。
 - **习惯与状态**：睡眠、精力、拖延、信息过载、压力与生活节奏。
+- **康复与用药安全**：残疾后的生活、无障碍与就业支持、家庭常备药的使用边界。
 - **困难处境**：重大变故后先处理什么，怎样找支持、留材料、走办事流程。
 
 例如：
@@ -81,9 +82,10 @@ life-development/
     ├── evidence.md           证据解释、时效核对与适用边界
     └── guide/
         ├── README.md         原指南导读
-        ├── LICENSE           原指南许可
-        ├── book/             32 章、552 条建议
-        └── docs/             4 篇专题长文、引用对照、75 份核实记录
+        ├── LICENSE           原指南正文许可（CC BY 4.0）
+        ├── LICENSE-CODE      上游代码许可（保留供原文链接查阅）
+        ├── book/             34 章、630 条建议
+        └── docs/             5 篇专题长文、引用对照、97 份核实记录
 ```
 
 资料按需读取，不应每次把整本书全部放入上下文。原指南导读中部分图片、网站与发行文件指向上游内容，完整阅读体验可访问[原项目](https://github.com/eternity4719/HowToLiveBetter)。
@@ -92,12 +94,16 @@ life-development/
 
 本项目是基于原指南制作的独立技能，并非原作者官方发布的技能。
 
+上游现在也提供了自己的 [life-decision-guide 技能](https://github.com/eternity4719/HowToLiveBetter/tree/main/skills/life-decision-guide)。本项目继续使用 `life-development`，保留结合个人处境的对话方法与离线资料快照；没有将上游技能的排序和固定输出格式替换进来。
+
 | 项目 | 当前版本 |
 | --- | --- |
 | 资料来源 | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) |
-| 快照日期 | 2026-09-20 |
-| 上游提交 | [`74c39f36d0f5e4fda17b0e48ff8066c966c7794c`](https://github.com/eternity4719/HowToLiveBetter/tree/74c39f36d0f5e4fda17b0e48ff8066c966c7794c) |
+| 快照日期 | 2026-09-30 |
+| 上游提交 | [`e91118de217945dfb8e3561dddc74c97cc64a707`](https://github.com/eternity4719/HowToLiveBetter/tree/e91118de217945dfb8e3561dddc74c97cc64a707) |
 | 更新方式 | 随仓库版本人工更新，不自动追踪上游 |
+
+本次同步了上一快照以来的 **86 个上游提交**：新增残疾生活与家庭常备药两章、生物钟和夜班长文，补充保险、职称、学习执行方法、家暴与职场欺负等内容，并纳入留学政策条目的更正、重复条目合并和全文通俗化。具体主题入口见 [`references/topics.md`](references/topics.md)。书籍正文和核实记录按 CC BY 4.0 原文同步；为修复嵌入导读的快照内链接，只将其中两处相对技能链接改成了指向上游的链接。这次没有逐一独立复核全部外部来源。
 
 技能明确区分**指南记载、当前核实的事实、基于个人处境的推断**。引用链接和作者的 A/B/C 标签不等于本次已经独立验证；观察性相关不能直接转成对个人的因果承诺。资料里的政策金额、资格、期限和医学建议，仍需结合当前地区、人群和官方来源核对。
 
@@ -119,4 +125,8 @@ git pull --ff-only
 
 ## 许可
 
-本仓库采用 [Unlicense](LICENSE)。附带的原指南文本同样采用 Unlicense，其[原许可文件](references/guide/LICENSE)保留在资料目录内；引用论文与外部网页仍遵循各自的权利和使用条件。
+本项目原创的技能指令、主题索引、证据说明和仓库说明继续采用 [Unlicense](LICENSE)，不包含以下第三方资料。
+
+`references/guide/book/`、`references/guide/docs/` 和 `references/guide/README.md` 的文字来自 **eternity4719 及《高性价比人生指南》贡献者**，本次按上游的 **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** 许可同步。出处：[高性价比人生指南](https://github.com/eternity4719/HowToLiveBetter)。资料内容未作改写，仅复制到技能目录，Git 可能规范化文本换行；快照日期与提交见上表。保留[完整许可](references/guide/LICENSE)，传播、改编时请保留署名、来源、许可，并注明修改情况。
+
+上游对代码采用 MIT，本项目没有复制其网站、工具或官方技能代码；保留的 [LICENSE-CODE](references/guide/LICENSE-CODE) 用于原文中的许可链接。引用论文、外部网页及未收录的媒体遵循各自的权利和使用条件。
