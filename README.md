@@ -84,8 +84,8 @@ life-development/
         ├── README.md         原指南导读
         ├── LICENSE           原指南正文许可（CC BY 4.0）
         ├── LICENSE-CODE      上游代码许可（保留供原文链接查阅）
-        ├── book/             34 章、767 条建议
-        └── docs/             9 篇专题长文与场景清单、引用对照、232 份核实记录
+        ├── book/             34 章、772 条建议
+        └── docs/             9 篇专题长文与场景清单、引用对照、244 份核实记录
 ```
 
 资料按需读取，不应每次把整本书全部放入上下文。原指南导读中部分图片、网站与发行文件指向上游内容，完整阅读体验可访问[原项目](https://github.com/eternity4719/HowToLiveBetter)。
@@ -94,18 +94,18 @@ life-development/
 
 本项目是基于原指南制作的独立技能，并非原作者官方发布的技能。
 
-上游现在也提供了自己的 [life-decision-guide 技能](https://github.com/eternity4719/HowToLiveBetter/tree/main/skills/life-decision-guide)。本项目继续使用 `life-development`，保留结合个人处境的对话方法与离线资料快照；没有将上游技能的计算排序和固定输出格式替换进来。
+上游也提供独立安装的技能和离线包。这里的 `life-development` 用随附的指南资料结合个人处境做答疑。[上游 life-decision-guide 技能](https://github.com/eternity4719/HowToLiveBetter/tree/main/skills/life-decision-guide)
 
 | 项目 | 当前版本 |
 | --- | --- |
 | 资料来源 | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) |
-| 快照日期 | 2026-10-21 |
-| 上游提交 | [`d78ca9b2cb5720de835135a59a36a2e6af174538`](https://github.com/eternity4719/HowToLiveBetter/tree/d78ca9b2cb5720de835135a59a36a2e6af174538) |
+| 快照日期 | 2026-11-19 |
+| 上游提交 | [`49fceab4254c8c2df0f7cdb1b2959cab6c451b96`](https://github.com/eternity4719/HowToLiveBetter/tree/49fceab4254c8c2df0f7cdb1b2959cab6c451b96) |
 | 更新方式 | 随仓库版本人工更新，不自动追踪上游 |
 
-本次同步了上一快照以来的 **42 个上游提交**：建议净增 77 条，核实记录增加 81 份。新增内容覆盖血脂与糖尿病前期、睡眠呼吸暂停、乙肝和慢阻肺随访、信用卡与网贷逾期、劳动合同和社保、儿童误吞纽扣电池、孕期流感疫苗、OPT、葡萄柚药物相互作用等场景；上游还逐条重审了全书标题、“说人话”、收益和备注的一致性，并删除“章节内按性价比排列”的旧说明。具体主题入口见 [`references/topics.md`](references/topics.md)。书籍正文和核实记录按 CC BY 4.0 原文同步；为修复嵌入导读的快照内链接，只将三处技能链接和一处衍生项目链接改成了指向上游的链接。这次没有逐一独立复核全部外部来源。
+这次同步了上一快照以来的 **69 个上游提交**，新增 5 条建议与 12 份核实记录。新增主题包括疑似肺结核、柏油样黑便、领取劳动合同副本与空白合同留证、50 岁后培养爱好、肾功能不佳时的止痛药与杨桃风险。上游也更正了多条急救建议、就业补助和工伤津贴的适用条件、留学打工资格及研究数字的解读。[主题索引](references/topics.md)
 
-制度类资料主要按中国大陆的规定编写，答疑时仍需按当事人的地区和身份核对。第 32 章 F-1 新规诉讼条目仍只核对至 2026-09-25，原文要求 2026-10-02 后复查；新增 OPT 条目核对至 2026-10-14。不能把新快照日期当成这些政策的核实日期，实际留学安排需查当日官方信息及学校国际学生办公室。
+制度类资料主要按中国大陆规定编写。第 32 章的留学打工条件部分由上游于 2026-10-21 复核，F-1 新规诉讼和 OPT 条目标注的核实日期分别为 2026-09-25 和 2026-10-14。本次同步整理的是上游记录，现行资格、申请期限和拟议条款以当日官方信息及学校国际学生办公室的核对为准。
 
 技能明确区分**指南记载、当前核实的事实、基于个人处境的推断**。引用链接和作者的 A/B/C 标签不等于本次已经独立验证；观察性相关不能直接转成对个人的因果承诺。资料里的政策金额、资格、期限和医学建议，仍需结合当前地区、人群和官方来源核对。
 
@@ -129,6 +129,6 @@ git pull --ff-only
 
 本项目原创的技能指令、主题索引、证据说明和仓库说明继续采用 [Unlicense](LICENSE)，不包含以下第三方资料。
 
-`references/guide/book/`、`references/guide/docs/` 和 `references/guide/README.md` 的文字来自 **eternity4719 及《高性价比人生指南》贡献者**，本次按上游的 **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** 许可同步。出处：[高性价比人生指南](https://github.com/eternity4719/HowToLiveBetter)。资料内容未作改写，仅复制到技能目录，Git 可能规范化文本换行；快照日期与提交见上表。保留[完整许可](references/guide/LICENSE)，传播、改编时请保留署名、来源、许可，并注明修改情况。
+`references/guide/book/`、`references/guide/docs/` 和嵌入导读的文字来自 **eternity4719 及《高性价比人生指南》贡献者**，按上游的 CC BY 4.0 许可同步。正文与核实记录按原文收录，嵌入导读中指向上游技能、衍生项目和其他语言目录的链接改为上游地址。传播、改编时请保留署名、来源、许可，并注明修改情况。[原项目](https://github.com/eternity4719/HowToLiveBetter) · [完整许可](references/guide/LICENSE)
 
 上游对代码采用 MIT，本项目没有复制其网站、工具或官方技能代码；保留的 [LICENSE-CODE](references/guide/LICENSE-CODE) 用于原文中的许可链接。引用论文、外部网页及未收录的媒体遵循各自的权利和使用条件。
